@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Inglês I - FATEC</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="/public/img/logo.png" alt="Logo FATEC" class="logo-header">
+        <div class="header-conteudo">
+            <nav>
+                <ul>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/disciplina1">Gestão Ágil</a></li>
+                    <li><a href="/disciplina2">Técnicas de Prog. II</a></li>
+                    <li><a href="/disciplina3">Inglês I</a></li>
+                    <li><a href="/disciplina4">Álgebra Linear</a></li>
+                    <li><a href="/disciplina5">Banco de Dados</a></li>
+                    <li><a href="/disciplina6">IHC</a></li>
+                    <li><a href="/disciplina7">Dev Web III</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Inglês I</h2>
+            <p><strong>Sigla:</strong> II</p>
+            <p><strong>Professor Responsável:</strong> Luciano de Souza</p>
+        </section>
+
+        <section>
+            <h3>Descrição da Disciplina</h3>
+            <p>Desenvolve habilidades de leitura instrumental, interpretação de documentações técnicas e comunicação 
+                profissional na língua inglesa, preparando os alunos para o mercado global de tecnologia e o uso cotidiano de 
+                terminologias de TI.</p>
+        </section>
+
+        <section>
+            <h3>Principais Assuntos Trabalhados</h3>
+            <ul>
+                <li>Leitura Técnica e Interpretação de Textos de TI</li>
+                <li>Vocabulário Técnico de Software</li>
+                <li>Comunicação e Redação em Língua Inglesa</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Imagem Temática</h3>
+            <img src="/public/img/ingles.jpeg" alt="Inglês I" width="400" onclick="abrirImagem(
+                this)" style="cursor: pointer;">
+        </section>
+
+        <p style="margin-top:20px;"><a href="/">← Voltar para a Página Principal</a></p>
+    </main>
+
+    <footer>
+        <p>FATEC 2026 - Projeto do 3º Semestre</p>
+    </footer>
+
+    <div id="modalImagem" class="modal" onclick="fecharImagem()">
+        <span class="fechar-modal">&times;</span>
+        <img id="imgModal" class="modal-conteudo" src="" alt="Imagem ampliada">
+    </div>
+
+    <script src="/public/js/script.js"></script>
+</body>
+</html>

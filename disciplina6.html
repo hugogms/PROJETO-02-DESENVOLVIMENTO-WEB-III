@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Interação Humano-Computador - FATEC</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="/public/img/logo.png" alt="Logo FATEC" class="logo-header">
+        <div class="header-conteudo">
+            <nav>
+                <ul>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/disciplina1">Gestão Ágil</a></li>
+                    <li><a href="/disciplina2">Técnicas de Prog. II</a></li>
+                    <li><a href="/disciplina3">Inglês I</a></li>
+                    <li><a href="/disciplina4">Álgebra Linear</a></li>
+                    <li><a href="/disciplina5">Banco de Dados</a></li>
+                    <li><a href="/disciplina6">IHC</a></li>
+                    <li><a href="/disciplina7">Dev Web III</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Interação Humano-Computador</h2>
+            <p><strong>Sigla:</strong> IHC</p>
+            <p><strong>Professor Responsável:</strong> Lúcio Nunes de Lira</p>
+        </section>
+
+        <section>
+            <h3>Descrição da Disciplina</h3>
+            <p>Estuda a relação entre usuários e sistemas digitais, abordando boas práticas de experiência do usuário (UX) e design de interface (UI). Capacita os alunos a criarem protótipos funcionais, acessíveis e focados nas necessidades do usuário final.</p>
+        </section>
+
+        <section>
+            <h3>Principais Assuntos Trabalhados</h3>
+            <ul>
+                <li>Princípios de Usabilidade e Acessibilidade</li>
+                <li>Prototipação (Wireframes e Design System)</li>
+                <li>Avaliação de Interfaces e Experiência do Usuário (UX/UI)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Imagem Temática</h3>
+            <img src="/public/img/Introdução-a-IHC-Interação-Humano-Computador.png" alt="Interação Humano-Computador" width="400" onclick="abrirImagem(
+                this)" style="cursor: pointer;">
+        </section>
+
+        <p style="margin-top:20px;"><a href="/">← Voltar para a Página Principal</a></p>
+    </main>
+
+    <footer>
+        <p>FATEC 2026 - Projeto do 3º Semestre</p>
+    </footer>
+
+    <div id="modalImagem" class="modal" onclick="fecharImagem()">
+        <span class="fechar-modal">&times;</span>
+        <img id="imgModal" class="modal-conteudo" src="" alt="Imagem ampliada">
+    </div>
+
+    <script src="/public/js/script.js"></script>
+</body>
+</html>

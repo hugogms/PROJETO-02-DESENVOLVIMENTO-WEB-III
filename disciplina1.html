@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestão Ágil de Projetos de Software - FATEC</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="/public/img/logo.png" alt="Logo FATEC" class="logo-header">
+        <div class="header-conteudo">
+            <nav>
+                <ul>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/disciplina1">Gestão Ágil</a></li>
+                    <li><a href="/disciplina2">Técnicas de Prog. II</a></li>
+                    <li><a href="/disciplina3">Inglês I</a></li>
+                    <li><a href="/disciplina4">Álgebra Linear</a></li>
+                    <li><a href="/disciplina5">Banco de Dados</a></li>
+                    <li><a href="/disciplina6">IHC</a></li>
+                    <li><a href="/disciplina7">Dev Web III</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Gestão Ágil de Projetos de Software</h2>
+            <p><strong>Sigla:</strong> GP</p>
+            <p><strong>Professor Responsável:</strong> Bruno Zolotareff dos Santos</p>
+        </section>
+
+        <section>
+            <h3>Descrição da Disciplina</h3>
+            <p>A disciplina aborda metodologias e práticas ágeis no desenvolvimento de software, capacitando os alunos a 
+                gerenciar projetos com flexibilidade, entregas contínuas e alto foco no trabalho em equipe através de rotinas 
+                de frameworks como Scrum e Kanban.</p>
+        </section>
+
+        <section>
+            <h3>Principais Assuntos Trabalhados</h3>
+            <ul>
+                <li>Metodologia Scrum e Kanban</li>
+                <li>Gestão de Backlog e User Stories</li>
+                <li>Métricas Ágeis e Entregas Contínuas</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Imagem Temática</h3>
+            <img src="/public/img/ageis.png" alt="Gestão Ágil de Projetos de Software" width="400" onclick="abrirImagem(
+                this)" style="cursor: pointer;">
+        </section>
+
+        <p style="margin-top:20px;"><a href="/">← Voltar para a Página Principal</a></p>
+    </main>
+
+    <footer>
+        <p>FATEC 2026 - Projeto do 3º Semestre</p>
+    </footer>
+
+    <div id="modalImagem" class="modal" onclick="fecharImagem()">
+        <span class="fechar-modal">&times;</span>
+        <img id="imgModal" class="modal-conteudo" src="" alt="Imagem ampliada">
+    </div>
+
+    <script src="/public/js/script.js"></script>
+</body>
+</html>
